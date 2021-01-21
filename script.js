@@ -64,11 +64,7 @@ const charsAll = [
   ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
   ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+"],
 ];
-/////clears the textarea------NOT WORKING
-const clearFields = function () {
-  document.querySelector("#password").innerText = "";
-  arrInputs.length = 0;
-};
+
 ///get inputs from the user
 const getInputs = function () {
   clearFields();
@@ -110,6 +106,13 @@ function writePassword() {
 
   document.querySelector("#password").innerText = password;
 }
+
+/////clears the textarea------NOT WORKING
+const clearFields = function () {
+  document.querySelector("#password").removeAttribute("readonly");
+  document.querySelector("#password").innerText = "";
+  arrInputs.length = 0;
+};
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", getInputs);

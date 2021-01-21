@@ -24,4 +24,5 @@
 
 - Writes the generated password in the page;
 
-[Password-Generator](https://gio86krt.github.io/Password-Generator/)
+[Portfolio-Link](https://github.com/Gio86krt/Password-Generator)
+[Password-Generator-Link](https://gio86krt.github.io/Password-Generator/)
