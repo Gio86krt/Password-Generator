@@ -1,5 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var newbtn = document.querySelector("#btn");
 
 let numOfChars, wantLowCase, wantUpCase, wantNums;
 let arrInputs = [];
@@ -107,12 +108,11 @@ function writePassword() {
   document.querySelector("#password").innerText = password;
 }
 
-/////clears the textarea------NOT WORKING
-const clearFields = function () {
-  document.querySelector("#password").removeAttribute("readonly");
-  document.querySelector("#password").innerText = "";
+/////clears the textarea
+function clearFields() {
+  document.querySelector("#password").innerHTML = "";
   arrInputs.length = 0;
-};
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", getInputs);
