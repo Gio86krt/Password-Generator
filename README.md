@@ -27,10 +27,10 @@
 [Repository-Link](https://github.com/Gio86krt/Password-Generator)\
 [Password-Generator-Link](https://gio86krt.github.io/Password-Generator/)
 
-![Screenshot1](.\assets\homePage.png)
-![Screenshot2](.\assets\firstInput.png)
-![Screenshot3](.\assets\secondInput.png)
-![Screenshot4](.\assets\thirdInput.png)
-![Screenshot5](.\assets\fourthInput.png)
-![Screenshot6](.\assets\fifthInput.png)
-![Screenshot7](.\assets\password.png)
+![Screenshot1](\assets\homePage.png)
+![Screenshot2](\assets\firstInput.png)
+![Screenshot3](\assets\secondInput.png)
+![Screenshot4](\assets\thirdInput.png)
+![Screenshot5](\assets\fourthInput.png)
+![Screenshot6](\assets\fifthInput.png)
+![Screenshot7](\assets\password.png)
